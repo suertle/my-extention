@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Stream Watching Tools",
+  "version": "1.0",
+  "description": "",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://play.max.com/*",
+        "https://www.primevideo.com/*"
+      ],
+      "css": ["style.css"]
+    },
+    {
+      "matches": ["https://www.oned.net/video/*"],
+      "js": ["scripts/oned.js"]
+    }
+  ]
+}
