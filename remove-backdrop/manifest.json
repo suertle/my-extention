@@ -10,6 +10,7 @@
     {
       "matches": [
         "https://play.max.com/*",
+        "https://play.hbomax.com/*",
         "https://www.primevideo.com/*"
       ],
       "css": ["style.css"]
